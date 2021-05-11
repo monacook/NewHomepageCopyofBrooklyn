@@ -1,0 +1,12 @@
+{% render 'shogun-products', content: collection %}
+{{collection.metafields.shogun.above}}
+<!-- /templates/collection.liquid -->
+{% comment %}
+  The contents of the collection.liquid template can be found in /sections/collection-template.liquid
+{% endcomment %}
+
+{% section 'smk_collection_blocks' %}<div class='smk-sections-above-content'></div>{% section 'collection-template' %}<div class='smk-sections-below-content'></div>
+<div class='smk-sections-above-footer'></div>
+
+{{collection.metafields.shogun.below}}
+

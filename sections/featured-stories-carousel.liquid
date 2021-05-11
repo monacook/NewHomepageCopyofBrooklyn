@@ -1,0 +1,134 @@
+{% comment %} Please do not change this file. It is automatically maintained by Storify{% endcomment %}
+
+<div id="home-stories" class="index-section home-section storify-home-section">
+  {% if shop.metafields.storify.stories != blank %}
+
+    {% if section.settings.title != blank %}
+      <h2 class="storify-home-section-title">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+  
+    {%- assign stories = shop.metafields.storify.stories | slice: 0, 5 -%}
+    <div class="stories-list">
+      {% for story in shop.metafields.storify.stories %}
+        <div class="story-list-item">
+          <a class="story" href="/a/stories/{{story.handle}}">
+            <div class="story-body text-center">
+              <div class="story-image">
+                <img alt="{{story.name}}" src="{{story.poster_portrait}}">
+              </div>    
+            </div>
+            <div class="story-title">
+              <span>
+                <div class="story-title-content">
+                  {{story.name}}
+                </div>
+              </span>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+
+  	{% if section.settings.link_enabled %}
+      <p class="story-list-link text-center">
+        <a class="btn" href="{{ section.settings.link_url }}">{{ section.settings.link_text | escape }}</a>
+      </p>
+  	{% endif %}
+
+  {% else %}
+
+    {% if section.settings.title != blank %}
+      <h2 class="storify-home-section-title">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+
+    <div class="stories-list"></div>
+
+  	{% if section.settings.link_enabled %}
+      <p class="story-list-link text-center">
+        <a class="btn" href="{{ section.settings.link_url }}">{{ section.settings.link_text | escape }}</a>
+      </p>
+  	{% endif %}
+
+  {% endif %}
+</div>
+{% schema %}
+  {
+   "name":"Featured Stories Carousel",
+   "settings":[
+      {
+         "type":"text",
+         "id":"title",
+         "label":{
+            "de":"Titel",
+            "en":"Heading",
+            "es":"Título",
+            "fr":"Titre",
+            "it":"Heading",
+            "ja":"見出し",
+            "pt-BR":"Título"
+         },
+         "default":{
+            "de":"Stories",
+            "en":"Stories",
+            "es":"Stories",
+            "fr":"Stories",
+            "it":"Stories",
+            "ja":"Stories",
+            "pt-BR":"Stories"
+         }
+      },
+      {
+         "type":"header",
+         "content":"See more link"
+      },
+      {
+         "type":"checkbox",
+         "id":"link_enabled",
+         "label":"Enabled",
+         "label":{
+            "de":"Aktiviert",
+            "en":"Enabled",
+            "es":"Habilitada",
+            "fr":"Activée",
+            "it":"Abilitata",
+            "ja":"有効化",
+            "pt-BR":"Ativada"
+         },
+         "default":false
+      },
+      {
+         "type":"text",
+         "id":"link_text",
+         "label":{
+            "de":"Link Text",
+            "en":"Link text",
+            "es":"Texto del enlace",
+            "fr":"Lien texte",
+            "it":"Link al testo",
+            "ja":"リンクテキスト",
+            "pt-BR":"Texto do link"
+         },
+         "default":{
+            "de":"Mehr sehen",
+            "en":"See more",
+            "es":"Ver más",
+            "fr":"Voir plus",
+            "it":"Vedi altro",
+            "ja":"続きを見る",
+            "pt-BR":"Ver mais"
+         }
+      },
+      {
+         "id":"link_url",
+         "type":"url",
+         "label":"Link url"
+      }
+   ],
+   "presets":[
+      {
+         "name":"Featured Stories Carousel",
+         "category":"Storify Sections"
+      }
+   ]
+  }
+{% endschema %}

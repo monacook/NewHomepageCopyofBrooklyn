@@ -1,0 +1,926 @@
+{% comment %}
+{% section 'smk_blocks' %}<div class='smk-sections-above-content'></div><!-- /templates/page.liquid -->
+<div class="grid">
+	<div class="grid__item">
+    
+
+    <header class="section-header text-center">
+      <h1>{{ page.title }}</h1>
+      <hr class="hr--small">
+    </header>
+
+    
+     <div class="grid">
+      <div class="grid__item">
+        <div class="rte rte--nomargin rte--indented-images">
+{% endcomment %}
+          
+          {{ page.content }}
+          <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="mobile-web-app-capable" />
+    <meta content="default" name="apple-mobile-web-app-status-bar-style" />
+
+    <!-- Facebook -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <meta content="" property="og:url" />
+    <meta content="website" property="og:type" />
+    <!-- Twitter -->
+    <meta content="photo" name="twitter:card" />
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.png' | asset_img_url: 'master' }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
+    {{ 'SavingsCalcStyle.css' | asset_url | stylesheet_tag }}
+    <meta content="AnimaApp.com - Design to code, Automated." name="author" />
+
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        #form_page_1 {
+            z-index: 1;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+
+</head>
+<script>
+          $(document).ready(() => 
+          {
+            $("#page2").attr('hidden', true)
+          })
+</script>
+  
+<body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+    <div class="section bg_gradient_img full_screen data_fillup" id="page1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-md-0 mb-4">
+                    <!-- <div class="row"> -->
+                    <div class="headline-h225 heading">
+                      <h1>build my</h1>
+                      <h1>mindhome</h1>
+                    </div>
+                    <div class="headline-h226">
+                        <p></p>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <div class="col-md-6">
+
+                    <!-- <div class="row"> -->
+                    <form class="pure-form form_field anima-word-break address-form" id="form_page_1">
+                        <div class="card_box mb-4">
+                          	<div class="smallTitle">
+                              Fill out the following form to see which zero net cost smart home packages you qualify for.
+                          	</div>
+                            <div class="row">
+                                <div class="form-group col-12">
+                                    <!-- <label for="exampleInputEmail1">Email</label> -->
+                                    <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                                        placeholder="Enter your email">
+                                </div>
+                              	<div class="form-group col-12" style="display:flex">
+                                  <input type="checkbox" name="marketOpt">
+                                  <label for="marketOpt">Click here to recieve our future updates and special offers! </label>
+                              	</div>
+                                <div class="form-group col-12">
+                                    <!-- <label for="address">Address</label> -->
+                                    <input type="text" class="form-control" id="address"
+                                        placeholder="Enter your address">
+                                </div>
+<!--                              
+                                   <div class="form-group col-md-6">
+                                    <label for="apartment">APT/SUITE</label>
+                                    <input type="text" class="form-control" id="apartment" placeholder="Enter your APT">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="city">City</label>
+                                    <input type="text" class="form-control" id="city" placeholder="Enter your city">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="state">State</label>
+                                    <input type="text" class="form-control" id="state" placeholder="Enter your state">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="zipcode">Zip Code</label>
+                                    <input type="text" class="form-control" id="zipcode"
+                                        placeholder="Enter your zipcode">
+                                </div>
+-->                          
+                                <div class="input-form"><strong class="input-title">
+                                  <select class="input-value" id="insurer" name="insurer">
+                                    <!-- <label for="Insurer">Insurer</label> -->
+                                        <option>Your Insurer</option>
+                                    	<option value="0.12">AIG</option>
+                                        <option value="0.12">Allstate</option>
+                                        <option value="0.3">American Family</option>
+                                        <option value="0.4">American Modern</option>
+                                        <option value="0.2">Amica</option>
+                                        <option value="0.12">AETNA</option>
+                                        <option value="0.2">Bankers</option>
+                                        <option value="0.2">BLUECROSSBLUESHIELD</option>
+                                        <option value="0.15">Chubb</option>
+                                        <option value="0.15">CIGNA</option>
+                                        <option value="0.24">Cincinnati</option>
+                                        <option value="0.06">Encompass</option>
+                                        <option value="0.12">Farmers</option>
+                                        <option value="0.3">Hanover</option>
+                                        <option value="0.3">Hartford</option>
+                                        <option value="0.4">Hippo</option>
+                                        <option value="0.4">HUMANA</option>
+                                        <option value="0.4">KAISER PERMANENTE</option>
+                                        <option value="0.2">Lemonade</option>
+                                        <option value="0.2">Liberty</option>
+                                        <option value="0.15">MAPFRE</option>
+                                        <option value="0.24">Mercury</option>
+                                        <option value="0.06">Nationwide</option>
+                                        <option value="0.12">OSCAR</option>
+                                        <option value="0.12">PURE</option>
+                                        <option value="0.3">Safeco</option>
+                                        <option value="0.4">Standard Guarantee</option>
+                                        <option value="0.2">State Auto</option>
+                                        <option value="0.2">State Farm</option>
+                                        <option value="0.15">Travelers</option>
+                                        <option value="0.24">The Hanover</option>
+                                        <option value="0.24">UNITED HEALTHCARE</option>
+                                        <option value="0.06">USAA</option>
+                                        <option value="0.12">Other</option>
+                                    </select>
+                                  </strong></div>
+                              	  <div class="input-form"><strong class="input-title">
+                                  <select class="input-value" id="premiums" name="premiums">
+                                        <option value="" disabled selected>Annual Premium</option>
+                                        <option>1000</option>
+                                        <option>1500</option>
+                                        <option>2000</option>
+                                        <option>2500</option>
+                                        <option>3000</option>
+                                        <option>3500</option>
+                                        <option>4000</option>
+                                        <option>4500</option>
+                                        <option>5000</option>
+                                        <option>5000+</option>
+                                    </select>
+                                    </strong></div>
+
+<!--                                <div class="form-group col-md-12">
+                                    <!-- <label for="annual_premium">Annual Premium</label> -->
+<!--                                    <input type="text" class="form-control" id="annual_premium"
+                                        placeholder="Annual Premiums">
+                                </div>
+                            </div>
+                        </div> 
+-->                  
+                        <div class="text-right">
+                            <button class="btn btn-default text-uppercase" type="submit" id="form_1_next">Submit</button>
+                        </div>
+                    </form>
+
+                    <br>
+                </div>
+
+            </div>
+        </div>
+        <div class="shape_wrap">
+            <img src="{{ 'polygon_shape.png' | asset_img_url: 'master' }}" alt="polygon_shape" />
+        </div>
+    </div>
+<!--        <script>
+          $('#form_page_1').on('submit', 
+                               function (event) 
+          {
+            event.preventDefault()
+
+            $("#page1").attr('hidden', false)
+            $("#page2").attr('hidden', false)
+          }
+         </script>  -->                      
+<!--         <script>   
+            $(document).on('submit', '#form_page_1', function show_data(total) 
+            //$('#form_page_1').on('submit', 
+            //function show_data(total) 
+      		{
+            //function show_data(total) {
+            //$('#form_page_1').on('submit', function show_data(total)
+      		$('#savings_per_year').text('$ ' + (total["savings_per_year"]/12).toFixed(0))
+            var insurer = $('#insurer').text().val.toFixed(2);
+         	var premium = $('#annual_premium').text().val.toFixed(2);
+       		var total = parseFloat(insurer * premium / 12).toFixed(2)
+            })
+            
+        </script>
+      
+<!--    <div class="section bg_gradient_img full_screen" id="page2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-md-0 mb-4">
+                    <div class="headline-h225 heading">
+                        <h1>build my <h1 style="font-size:4vw">mindhome</h1></h1>
+                    </div>
+                    <div class="headline-h226">
+                        <p></p>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                <div class="col-md-6">
+
+                    <form id="homeDataForm1" class="form_field">
+                        <div class="card_box mb-4">
+                          	<div class="smallTitle mb-4">Your home has a footprint all its own. Tell us a few things about your home.</div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 tester1_1">
+                                </div>
+                                <div class="col-xs-12 col-md-6 tester1_2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-default" id="form_1_back">Back</button>
+                            <button class="ml-3 btn btn-default" id="form_2_next" type="submit">Next </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="shape_wrap">
+            <img src="{{ 'polygon_shape.png' | asset_img_url: 'master' }}" alt="polygon_shape" />
+        </div>
+    </div>
+
+    <div class="section bg_gradient_img full_screen" id="page3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-md-0 mb-4">
+                    <div class="headline-h225 heading">
+                        <h1>build my <h1 style="font-size:4vw">mindhome</h1></h1>
+                    </div>
+                    <div class="headline-h226">
+                        <!-- <p>How Smart is your home? Tell us what you have, we will tell you what you need</p> -->
+                        <!-- <p>Already have a Smart Home? What's inside?</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <form id="homeDataForm2" class="form_field">
+                        <div class="card_box mb-4">
+                          	<div class="smallTitle mb-4">Do you already have any of the following smart home or security devices? If so how many?</div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 tester2_1">
+                                </div>
+                                <div class="col-xs-12 col-md-6 tester2_2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-default" id="form_2_back">Back</button>
+                            <button class="ml-3 btn btn-default" id="form_2_next" type="submit" id="form_2_back">Next
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="shape_wrap">
+            <img src="{{ 'polygon_shape.png' | asset_img_url: 'master' }}" alt="polygon_shape" />
+        </div>
+    </div>
+-->
+
+    <div class="section bg_gradient_img full_screen" id="page2">    
+    <div class="section bg_color" id="page2">
+        <div class="container">
+            <div class="row mb-5 pb-3">
+                <div class="col-12 text-center">
+                    <div class="heading_woo">
+                        <h2 class="text_default"><span>Monthly Insurance Savings*</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 pb-3">
+                <div class="col-12 text-center">
+                    <!-- <div class="saving_shape_top"> -->
+                        <!-- <img src="{{ 'saving_shape_top.png' | asset_img_url: 'master' }}" alt="" /> -->
+                    <!-- </div> -->
+                    <div class="saving_info">
+<!--                         <h3 id="savings_per_year" class="text_default"></h3> -->
+                      	 <h3 class="text_default estimate_per">
+                           <span id="savings_per_year"></span>
+                           <span>/MO</span>
+                      	 </h3>
+                         <!--  <p>per month could be saved when you add a MindHome smart home!*</p> -->
+                    </div>
+                       <!-- <div class="saving_shape_top">
+                        <img src="{{ 'saving_shape_bottom.png' | asset_img_url: 'master' }}" alt="" />
+                    </div> -->
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="divider"></div>
+                      </div>
+                  </div>
+              	</div>
+                	<div class="col-12 text-center">  	
+              			<div class="heading_woo">
+                        	<h2 class="text_default"><span>Now select your Zero Net Cost bundle:</span></h2>
+                    	</div>
+              		</div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- <div class="box_card h-100 mb-4 mb-md-0 text-center">
+                                <h3 class="box_title">your smart home score</h3>
+                                <div class="score_meter" id="score_meter">
+                                    <div class="GaugeMeter" id="PreviewGaugeMeter" data-bind="70" data-percent="20"
+                                        data-size=200 data-theme="Green-Gold-Red" data-back="#C4C4C4" data-width="15"
+                                        data-style="Arch" data-animationstep="30"></div>
+                                    <p id="score" class="text_default score_txt"></p>
+                                </div>
+                                <p>You received a <span class="font-weight-bold" id="total_points_received"></span> out
+                                    of a possible <span id="total_points_possible"></span> points.</p>
+                            </div> -->
+                        </div>
+<!--                         <div class="col-md-6">
+                            <div class="box_card mb-4">
+                                <h3 class="box_title text-center">monthly premium</h3>
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4 col-md-12 col-sm-4">
+                                        <div class="premium_info">
+                                            <h4>Mindhome</h4>
+                                            <p id="new_monthly_premium"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-4">
+                                        <div class="plan_cost_wrap">
+                                            <div class="chart" id="graph" data-size="120" data-percent="31.71"></div>
+                                            <span id="plan_cost1" class="plan_cost text_default"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-4">
+                                        <div class="premium_info">
+                                            <h4>Current</h4>
+                                            <p id="monthly_premium"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box_card">
+                                <div class="cost_year_info">
+                                    <div class="cost_info_box">
+                                        <h3 class="box_title">cost</h3>
+                                        <p id="plan_cost2" class="text_default"></p>
+                                    </div>
+                                    <div class="cost_info_box">
+                                        <h3 class="box_title">Payback</h3>
+                                        <p id="breakeven" class="text_default"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-12">
+                    <div class="divider"></div>
+                </div>
+            </div> -->
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <table class="table table-hover text-center table-calc" id="calcTable">
+
+                        <colgroup>
+                            <col>
+                            </col>
+                            <col>
+                            </col>
+                            <col>
+                            </col>
+                            <col>
+                            </col>
+                            <col>
+                            </col>
+                        </colgroup>
+
+                        <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col">
+                                <h2>Starter</h2>
+                                <h2>$29<span class="shrinkMonth">/mo*</span></h2>
+                                <img src="{{ 'Frame_3starter.png' | asset_img_url: 'master' }}" alt="starter image" />
+                                <button class="btn btn-default" onclick="window.open('https://www.mindhome.co/products/starter', '_blank')">SELECT</button>
+                                <div class="paymentTiming">
+                                  <div>* For 120 months</div>
+                                  <div>Or $2,199 one time payment</div>
+                                </div>
+                              </th>
+                              <th scope="col">
+                                <h2>Enhanced</h2>
+                                <h2>$39<span class="shrinkMonth">/mo*</span></h2>
+                                <img src="{{ 'Frame_4enhanced.png' | asset_img_url: 'master' }}" alt="enhanced image" />
+                                <button class="btn btn-default" onclick="window.open('https://www.mindhome.co/products/enhanced', '_blank')">SELECT</button>
+                                <div class="paymentTiming">
+                                  <div>* For 120 months</div>
+                                  <div>Or $2,499 one time payment</div>
+                                </div>
+                              </th>
+                              <th scope="col">
+                                <h2>Complete</h2>
+                                <h2>$49<span class="shrinkMonth">/mo*</span></h2>
+                                <img src="{{ 'Frame_2complete.png' | asset_img_url: 'master' }}" alt="complete image" />
+                                <button class="btn btn-default" onclick="window.open('https://www.mindhome.co/products/whole-home-bundle-1', '_blank')">SELECT</button>
+                                <div class="paymentTiming">
+                                  <div>* For 120 months</div>
+                                  <div>Or $3,499 one time payment</div>
+                                </div>
+                              </th>
+                              <th scope="col">
+                                <h2>Ultimate</h2>
+                                <h2>$59<span class="shrinkMonth">/mo*</span></h2>
+                                <img src="{{ 'Frame_1ultimate.png' | asset_img_url: 'master' }}" alt="ultimate image" />
+                                <button class="btn btn-default" onclick="window.open('https://www.mindhome.co/products/smart-super-luxury-bundle', '_blank')">SELECT</button>
+                                <div class="paymentTiming">
+                                  <div>* For 120 months</div>
+                                  <div>Or $3,999 one time payment</div>
+                                </div>
+                              </th>
+                            </tr>
+                        </thead>
+                        <tbody id="databody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-md-5 mt-4"></p>
+                    <!--<button class="btn btn-default text-uppercase" type="submit"></button> -->
+                    <p class="mt-md-5 mt-4">*Savings estimate based on publicly filed forms and rates. Please verify with your insurance agent.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+
+
+        </div>
+    </div>
+    <div class="container back" hidden>
+        <h1 id="dataApi" style="word-wrap:break-word"></h1>
+
+        <table class="table">
+
+        </table>
+        <div>
+            <button class="btn btn-primary d-flex justify-content-center align-items-center"
+                id="backButton">Back</button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC83bqwWvV3-T6ZrLLF9Bj569OvHxpUy5A&libraries=places">
+    </script>
+
+    <script>
+        google.maps.event.addDomListener(window, 'load', function () {
+            var places = new google.maps.places.Autocomplete(document.getElementById('address'));
+            google.maps.event.addListener(places, 'place_changed', function (e) {
+                var place = places.getPlace();
+
+                console.log(place)
+            });
+        });
+    </script>
+
+       <!-- <div class="input-form"><strong class="input-title">
+                                  <select class="input-value" id="insurer" name="insurer">
+                                    <label for="Insurer">Insurer</label>
+                                        <option value="0.12">AIG</option> -->
+       
+<script>
+           //this is how to set up the actual multiplication of the two variables (column A insurer and column B discount)         
+         var amount = $('select[name=insurer] option').filter(':selected').val();
+         console.log(amount)
+         var premium = $('select[name=premiums] option').filter(':selected').text();
+         //need to change the type to numbers/math bc as current string can't be multiplied
+         amount = parseFloat(amount).toFixed(2);
+         premium = parseFloat(premium).toFixed(2);
+         var total = parseFloat(amount * premium / 12).toFixed(2);
+         console.log(total)
+         $("#output").text("SAVE UP TO $" + total + "per month with Mindhome. Or you could get one of these packages included in your currently monthly bill:")
+            //$(document).on('submit', '#form_page_1', function show_data(total) 
+            //{
+      		//function show_data(total) {
+            //$('#form_page_1').on('submit', function show_data(total)
+      		//$('#savings_per_year').text('$ ' + (total["savings_per_year"]/12).toFixed(0))
+            //$(`#savings_per_year`).text('$ ' + (data["savings_per_year"]/12).toFixed(0))
+            // $(`#savings_per_year`).text('$ ' + (data["savings_per_year"]).toFixed(0)) / 12
+            //$(`#new_monthly_premium`).text('$ ' + (data["new_monthly_premium"]).toFixed(2))
+            //$(`#plan_cost1`).text('$ ' + (data["plan_cost"]).toFixed(2))
+            //$(`#plan_cost2`).text('$ ' + (data["plan_cost"]).toFixed(2))
+            //$(`#monthly_premium`).text('$ ' + (data["monthly_premium"]).toFixed(2))
+            //$(`#score`).text((data["score"]).toFixed(2) + ' %')
+            //$(`#breakeven`).text((data["breakeven"]).toFixed(2) + ' Years')
+            //$(`#total_points_possible`).text((data["total_points_possible"]).toFixed(2))
+            //$(`#total_points_received`).text((data["total_points_received"]).toFixed(2))
+            //var amount=$('select[name=insurer] option').filter(':selected').val();
+        // console.log(amount)
+        //var insurer = $('#insurer').text().val.toFixed(2);
+         //need to change the type to numbers/math bc as current string can't be multiplied
+         //amount = parseFloat(amount).toFixed(2);
+        //var premium = $('#annual_premium').text().val.toFixed(2);
+        // var amount = $('#insurer').filter(':selected').val();
+        //var total = (insurer * premium / 12)
+       // })
+            
+        //var amount = parseFloat('#insurer').val.toFixed(2);
+        // console.log(total) 
+            //for table in the last page this code down below
+            {
+            const raw_headers = ["Water Shutoff Valve", "Water Sensor", "Water Flow Monitor", "Smoke Listener", "Fire Suppression Ball", "Temperature Sensor", "Smart Plug", "Indoor Cameras", "Outdoor Cameras", "Voice Assistant", "Door/Window Sensor", "Doorbell Camera", "Smart Door Lock", "Robot Vacuum", "Smart Thermostat", "Garage Door Opener", "Light Bulbs", "Smart Switches", "Smart Blinds"]
+
+            const col1 = [1, 5, 1, 2, 5, 10, 8, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            const col2 = [1, 5, 1, 2, 10, 10, 8, 3, 1, 3, 10, 0, 0, 0, 0, 0, 0, 0, 0]
+            const col3 = [1, 5, 1, 2, 10, 10, 8, 3, 2, 3, 10, 1, 1, 1, 2, 1, 5, 4, 0]
+            const col4 = [1, 5, 1, 2, 10, 10, 8, 3, 2, 3, 10, 1, 1, 1, 2, 1, 5, 8, 1]
+            
+           
+            let str = ''
+            raw_headers.map((value, cur_ind) => 
+            {
+                str += `<tr>
+                            <th scope="row">${value}</th>
+							<td style="text-align:center;vertical-align:middle;">${col1[cur_ind]}</td>
+                            <td style="text-align:center;vertical-align:middle;">${col2[cur_ind]}</td>
+                            <td style="text-align:center;vertical-align:middle;">${col3[cur_ind]}</td>
+                            <td style="text-align:center;vertical-align:middle;">${col4[cur_ind]}</td>
+                        </tr>
+                `
+
+            })
+            $("#databody").html(str)
+  			}    
+      </script>
+       
+    <!-- Scripts -->
+    <!-- <script src='/demo.js'></script> -->
+    <!-- <script>
+        var formField1 = {
+
+            "bedrooms": "Bedrooms",
+            "bathrooms": "Bathrooms",
+            "windows": "Windows",
+            "square_footage": "Square feet",
+            "total_rooms": "Total rooms"
+
+        }
+        var formField2 = {
+            "floors": "Floors",
+            "kitchens": "Kitchens",
+            "washing_machines": "Washing machines",
+          	"entry_doors": "Entry doors",
+          	"outdoor_zones": "Outdoor zones"
+        }
+        var formField3 = {
+            "siren": "Siren",
+            "smoke_co_companion": "Smoke_Co companion",
+            "fire_extinguisher_balls": "Fire extinguisher balls",
+            "arm_disable_panic_remote": "Arm Disable Panic Remote"
+        }
+        var formField4 = {
+            "door_or_window_sensor": "Door or window sensor",
+            "indoor_security_camera": "Indoor security camera",
+            "water_point_sensors": "Water point sensors",
+            "electric_arc_detector": "Electric arc Detector"
+        }
+
+        // var backUpdata = {                          //static data when api not in working
+        //     "breakeven": 0,
+        //     "entry_doors": 2,
+        //     "floors": 3,
+        //     "monthly_premium": 64.67,
+        //     "new_monthly_premium": -13936.45,
+        //     "plan_cost": 685,
+        //     "savings_per_month": 14001.12,            
+        //     "savings_per_year": 164001.12,
+        //     "score": 63.61,
+        //     "total_points_possible": 80.30,
+        //     "total_points_received": 51.09
+        // }
+
+        $(document).ready(() => {
+            $("#page2").attr('hidden', true);
+            $("#page3").attr('hidden', true);
+            $("#page4").attr('hidden', true);
+
+            let str1 = ''
+            let str2 = ''
+            let str3 = ''
+            let str4 = ''
+
+            let keys1 = Object.keys(formField1)
+            let keys2 = Object.keys(formField2)
+            let keys3 = Object.keys(formField3)
+            let keys4 = Object.keys(formField4)
+
+            keys1.map(key => {
+                str1 += `<div class="form-group">
+                    <label for="${key}">${formField1[key]}</label>
+
+                    `+ ((key != 'square_footage' && key != 'total_rooms') ?
+                        Add_select(key) :
+
+                        `<input type="number" class="form-control" id="${key}" />`) + `
+
+                </div>`
+            })
+            keys2.map(key => {
+                str2 += `<div class="form-group">
+                    <label for="${key}">${formField2[key]}</label>` +
+                    Add_select(key) +
+                    `
+                </div>`
+            })
+
+            function Add_field(key, formfield) {
+                let str = ''
+                key.map(k => {
+                    str += `<div class="form-group">
+                    <label for="${k}">${formfield[k]}</label>
+                    <input type="number" class="form-control" id="${k}" />
+                    </div>`
+                })
+                return str
+            }
+
+            function Add_select(key) {
+                let str = ''
+
+                str += `<select class="form-control" id="${key}">
+                <option value="">Please select option</option>
+                <option value="1">1</option>
+
+                `+ ((key != 'kitchens' && key != 'washing_machines') ? `
+
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+
+                ` : ``) + `</select>`
+                return str;
+            }
+
+            str3 = Add_field(keys3, formField3)
+            str4 = Add_field(keys4, formField4)
+
+            $(".tester1_1").html(str1)
+            $(".tester1_2").html(str2)
+            $(".tester2_1").html(str3)
+            $(".tester2_2").html(str4)
+            $("#bedrooms").attr('required', true)
+            $("#bathrooms").attr('required', true)
+            $("#floors").attr('required', true)
+            $("#kitchens").attr('required', true)
+            $("#outdoor_zones").attr('required', true)
+            $("#square_footage").attr('required', true)
+            $("#washing_machines").attr('required', true)
+            $("#windows").attr('required', true)
+            $("#entry_doors").attr('required', true)
+            $("#outdoor_zones").attr('required', true)
+            $("#total_rooms").attr('required', true)
+            
+            $('#siren').attr('min',0).attr('value',0)
+            $('#smoke_co_companion').attr('min',0).attr('value',0)
+            $('#fire_extinguisher_balls').attr('min',0).attr('value',0)
+            $('#arm_disable_panic_remote').attr('min',0).attr('value',0)
+            $('#door_or_window_sensor').attr('min',0).attr('value',0)
+            $('#indoor_security_camera').attr('min',0).attr('value',0)
+            $('#water_point_sensors').attr('min',0).attr('value',0)
+            $('#electric_arc_detector').attr('min',0).attr('value',0)
+
+        })
+
+        var tempdata = {}
+
+        $(document).on('submit', '#homeDataForm1', function (event) {
+            event.preventDefault();
+            let bedrooms = $('#bedrooms').val();
+            let bathrooms = $('#bathrooms').val();
+            let windows = $('#windows').val();
+            let square_footage = $('#square_footage').val();
+            let floors = $('#floors').val();
+            let kitchens = $('#kitchens').val();
+            let washing_machines = $('#washing_machines').val();
+            let entry_doors = $('#entry_doors').val();
+          	let outdoor_zones = $('#outdoor_zones').val();
+            let total_rooms = $('#total_rooms').val();
+
+            tempdata = {
+                ...tempdata,
+                "bedrooms": bedrooms,
+                "bathrooms": bathrooms,
+                "windows": windows,
+                "square_footage": square_footage,
+                "floors": floors,
+                "kitchens": kitchens,
+                "washing_machines": washing_machines,
+                "entry_doors": entry_doors,
+              	"outdoor_zones": outdoor_zones,
+                "total_rooms": total_rooms
+            }
+            $("#page2").attr('hidden', true);
+            $("#page3").attr('hidden', false);
+
+        });
+
+        $(document).on('submit', '#homeDataForm2', function (event) {
+            event.preventDefault();
+            let siren = $('#siren').val();
+            let smoke_co_companion = $('#smoke_co_companion').val();
+            let fire_extinguisher_balls = $('#fire_extinguisher_balls').val();
+            let arm_disable_panic_remote = $('#arm_disable_panic_remote').val();
+            let door_or_window_sensor = $('#door_or_window_sensor').val();
+            let indoor_security_camera = $('#indoor_security_camera').val();
+            let water_point_sensors = $('#water_point_sensors').val();
+            let electric_arc_detector = $('#electric_arc_detector').val();
+
+            tempdata = {
+                ...tempdata,
+                "siren": siren,
+                "smoke/co_companion": smoke_co_companion,
+                "fire_extinguisher_balls": fire_extinguisher_balls,
+                "arm/disable/panic_remote": arm_disable_panic_remote,
+                "door_or_window_sensor": door_or_window_sensor,
+                "indoor_security_camera": indoor_security_camera,
+                "water_point_sensors": water_point_sensors,
+                "electric_arc_detector": electric_arc_detector
+            }
+            console.log(tempdata)
+
+            let myHeaders = new Headers();
+            myHeaders.append("x-api-key", "fdcec06ee8e3494db4792148d0bd653f");
+            myHeaders.append("Content-Type", "application/json");
+            const proxyurl = "https://cors-anywhere.herokuapp.com/";
+            const Url = proxyurl + "http://li530-104.members.linode.com:8000/house/score"
+
+            fetch(Url, {
+                headers: myHeaders,
+                method: "POST",
+                body: JSON.stringify(tempdata)
+            }).then(response => response.json()).then(res => {
+              	console.log(res)
+                show_data(res)
+                $("#PreviewGaugeMeter").attr("data-percent", Math.round(res.score))
+                $(".GaugeMeter").gaugeMeter();
+                let data = res.plan_cost % 100
+//                 circle_update(data)
+
+                $("#page4").attr('hidden', false)
+                $("#page3").attr('hidden', true)
+            });
+        })
+
+        $('#form_page_1').on("submit", function (event) {
+            event.preventDefault()
+
+            $("#page2").attr('hidden', false)
+            $("#page1").attr('hidden', true)
+            $("#page3").attr('hidden', true)
+            $("#page4").attr('hidden', true)
+        })
+
+        $('#form_1_back').on("click", function (e) {
+            e.preventDefault()
+
+            $("#page3").attr('hidden', true)
+            $("#page4").attr('hidden', true)
+            $("#page2").attr('hidden', true)
+            $("#page1").attr('hidden', false)
+        })
+
+        $('#form_2_back').on("click", function (e) {
+            e.preventDefault()
+
+            $("#page1").attr('hidden', true)
+            $("#page2").attr('hidden', false)
+            $("#page3").attr('hidden', true)
+            $("#page4").attr('hidden', true)
+        })
+
+        $('#page_3_back').on("click", function (e) {
+            e.preventDefault()
+
+            $("#page1").attr('hidden', true)
+            $("#page2").attr('hidden', true)
+            $("#page3").attr('hidden', false)
+            $("#page4").attr('hidden', true)
+        })
+
+
+
+
+//         function circle_update(data) {
+
+//             /*Circle Progress JS*/
+//             var el = document.getElementById('graph'); // get canvas
+
+//             var options = {
+//                 percent: data || 25,
+//                 size: el.getAttribute('data-size') || 220,
+//                 lineWidth: el.getAttribute('data-line') || 15,
+//                 rotate: el.getAttribute('data-rotate') || 0
+//             }
+
+//             var canvas = document.createElement('canvas');
+//             var span = document.createElement('span');
+//             // span.textContent = '$' + options.percent;
+
+//             if (typeof (G_vmlCanvasManager) !== 'undefined') {
+//                 G_vmlCanvasManager.initElement(canvas);
+//             }
+
+//             var ctx = canvas.getContext('2d');
+//             canvas.width = canvas.height = options.size;
+
+//             el.appendChild(span);
+//             el.appendChild(canvas);
+
+//             ctx.translate(options.size / 2, options.size / 2); // change center
+//             ctx.rotate((-1 / 2 + options.rotate / 180) * Math.PI); // rotate -90 deg
+
+//             //imd = ctx.getImageData(0, 0, 240, 240);
+//             var radius = (options.size - options.lineWidth) / 2;
+
+//             var drawCircle = function (color, lineWidth, percent) {
+//                 percent = Math.min(Math.max(0, percent || 1), 1);
+//                 ctx.beginPath();
+//                 ctx.arc(0, 0, radius, 0, Math.PI * 2 * percent, false);
+//                 ctx.strokeStyle = color;
+//                 ctx.lineCap = 'round'; // butt, round or square
+//                 ctx.lineWidth = lineWidth
+//                 ctx.stroke();
+//             };
+
+//             drawCircle('#33629F', options.lineWidth, 100 / 100);
+//             drawCircle('#A66EFA', options.lineWidth, options.percent / 100);
+//         }
+
+
+
+    </script>
+    <script type='text/javascript' src="{{ 'GaugeMeter.js' | asset_url }}"></script>
+
+    <script src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js">
+    </script>
+    <!-- End of Scripts -->
+</body>
+
+</html>
+{% comment %}
+        </div>
+      </div>
+    </div> 
+
+  </div>
+ </div> 
+<div class='smk-sections-below-content'></div><div class='smk-sections-above-footer'></div
+{% endcomment %}

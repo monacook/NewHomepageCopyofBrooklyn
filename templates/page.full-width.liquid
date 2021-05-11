@@ -1,0 +1,14 @@
+<!-- /templates/page.full-width.liquid -->
+<header class="section-header text-center">
+  <h1>{{ page.title }}</h1>
+  <hr class="hr--small">
+  {{ 'SavingsCalcStyle.css' | asset_url | stylesheet_tag }}
+</header>
+
+{% if page.betacalc %}
+	<div class="rte">
+{% else %}
+    <div class="rte mainForm">
+{% endif %}
+  {{ page.content }}
+</div>

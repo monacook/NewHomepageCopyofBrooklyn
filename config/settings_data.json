@@ -1,0 +1,850 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_headings": "#000000",
+    "color_body_text": "#000000",
+    "color_borders": "#000000",
+    "color_button_text": "#ffffff",
+    "color_primary": "#8a288f",
+    "color_secondary": "#a56df9",
+    "color_product_background": "#ffffff",
+    "color_sale_tag": "#233ab2",
+    "color_input": "#e3ecec",
+    "color_newsletter": "#e3ecec",
+    "color_drawer_background": "#000000",
+    "color_drawer_text": "#ffffff",
+    "color_drawer_border": "#000000",
+    "color_drawer_button": "#a56df9",
+    "color_drawer_button_text": "#ffffff",
+    "type_header_family": "old_standard_tt_n4",
+    "type_header_base_size": "30px",
+    "type_header_border_thickness": "1px",
+    "type_accent_family": "montserrat_n6",
+    "type_accent_transform": true,
+    "type_accent_spacing": true,
+    "type_accent_subheadings": true,
+    "type_base_family": "arapey_n4",
+    "type_base_size": "16px",
+    "type_base_italize_titles": false,
+    "cart_type": "drawer",
+    "cart_notes_enable": true,
+    "share_image": "shopify:\/\/shop_images\/mindhome_logo.png",
+    "social_facebook_link": "",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/mindhome_icon-01_-_Edited.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#a26b25",
+    "checkout_button_color": "#000000",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/mindhome_logo.png",
+          "logo_max_width": 260,
+          "header_color": "#000000",
+          "transparent_header_enable": true,
+          "transparent_logo": "shopify:\/\/shop_images\/mindhome_logo_white_feae3cf7-35fc-4fa3-b6cc-96738bd06aea.png",
+          "transparent_header_color": "#ffffff",
+          "search": "modal",
+          "main_menu_link_list": "main-menu",
+          "drawer_bottom_link_list": "",
+          "drawer_search_enable": false,
+          "show_announcement": false,
+          "home_page_only": true,
+          "text": "Click-to-call | Pre-order Now For October Delivery",
+          "link": "tel:844-533-0398",
+          "color_bg": "#000000",
+          "color_text": "#ffffff"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collections-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "whole-smart-home-bundle"
+            }
+          },
+          "31b71ee2-ce65-40fd-8274-9d8cc6e9cee1": {
+            "type": "collection",
+            "settings": {
+              "collection": "mindhome-health"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collections-0",
+          "31b71ee2-ce65-40fd-8274-9d8cc6e9cee1"
+        ],
+        "settings": {
+          "title": "Learn More About Our Robotic Home Bundles Now"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Subscribe to our newsletter",
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_payment_icons": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "footer_link_list": "footer"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": false,
+          "collection_sort_enable": false,
+          "collection_tags_enable": false,
+          "collection_products_grid": "grid",
+          "product_vendor_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_vendor_enable": false,
+          "social_sharing_products": true,
+          "quantity_enabled": false,
+          "product_selector": "radio",
+          "enable_payment_button": true,
+          "add_to_cart_button_size": "small",
+          "media_layout": "stacked",
+          "enable_image_zoom": false,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "heading": "You may also like"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical"
+        }
+      },
+      "1596553859880": {
+        "type": "featured-collections",
+        "disabled": true,
+        "blocks": {
+          "1596553859880-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "security"
+            }
+          },
+          "1596553859880-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "water"
+            }
+          },
+          "1596553859880-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "fire"
+            }
+          },
+          "1596553898290": {
+            "type": "collection",
+            "settings": {
+              "collection": "luxury"
+            }
+          }
+        },
+        "block_order": [
+          "1596553859880-0",
+          "1596553859880-1",
+          "1596553859880-2",
+          "1596553898290"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1597277211415": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1597277211415-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/katsia-jazwinska-RIb19_YSUX0-unsplash.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 65,
+              "text_alignment": "center",
+              "slide_heading": "",
+              "slide_subheading": "Mindhome's meticulously designed platform integrates with the most popular smart home devices in the market. Your devices, smarter, managed in one place.",
+              "button_label": "LEARN MORE",
+              "button_link": "shopify:\/\/pages\/the-home-of-the-future-more-serenity-less-stress",
+              "slide_text_color": "#000000",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          }
+        },
+        "block_order": [
+          "1597277211415-0"
+        ],
+        "settings": {
+          "home_hero_height": "adapt",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 5
+        }
+      },
+      "1597277397891": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1597277397891-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/smartmockups_kb8v4tz8.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 65,
+              "text_alignment": "left",
+              "slide_heading": "Mindhome",
+              "slide_subheading": "The luxury platform that integrates your home, your smart devices, and your life. Bringing mindfulness closer to home.  Stress less, know more, live easier. Starting at just 10 bucks a month.",
+              "button_label": "life in a mindhome",
+              "button_link": "shopify:\/\/pages\/life-in-a-mindhome",
+              "slide_text_color": "#233ab2",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          }
+        },
+        "block_order": [
+          "1597277397891-0"
+        ],
+        "settings": {
+          "home_hero_height": "adapt",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 3
+        }
+      },
+      "1597277731114": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1597277731114-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/motherboard-with-wood-grain.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 65,
+              "text_alignment": "center",
+              "slide_heading": "",
+              "slide_subheading": "Your Mindhome's exclusive devices bring forward a new era of safer homes. Homes so safe, they cost less to insure. A lot less.",
+              "button_label": "LEARN MORE ABOUT OUR ZERO NET COST PROMISE",
+              "button_link": "shopify:\/\/pages\/mindhome-offers-more-than-traditional-smart-home-and-always-pays-for-itself-twice-over",
+              "slide_text_color": "#000000",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          }
+        },
+        "block_order": [
+          "1597277731114-0"
+        ],
+        "settings": {
+          "home_hero_height": "adapt",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 5
+        }
+      },
+      "1597278001391": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1597278001391-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/model-brain-against-black-background.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 60,
+              "text_alignment": "center",
+              "slide_heading": "",
+              "slide_subheading": "A Mindhome hub brings the most powerful edge computing and AI to the center of your safer, smarter, and more convenient home.",
+              "button_label": "LEARN MORE",
+              "button_link": "shopify:\/\/pages\/a-mindhome-hub-brings-the-most-powerful-edge-computing-and-ai-to-the-cerebellum-of-your-safer-smarter-and-more-convenient-home",
+              "slide_text_color": "#000000",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          }
+        },
+        "block_order": [
+          "1597278001391-0"
+        ],
+        "settings": {
+          "home_hero_height": "adapt",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 7
+        }
+      },
+      "1597278001392": {
+        "type": "smk_blocks_index",
+        "settings": {}
+      },
+      "1599670151464": {
+        "type": "featured-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/mindhome-icon2.gif",
+          "layout": "left",
+          "title": "Homes so safe, they cost less to insure. A lot less.",
+          "text": "<p>Our products generate enough insurance savings to pay for your entire smart home. We call it zero net cost and it applies to all of our bundles. <\/p>",
+          "button_label": "Learn About Our Zero Net Cost Promise",
+          "button_link": "shopify:\/\/pages\/zero-net-cost"
+        }
+      },
+      "1599670280487": {
+        "type": "slideshow",
+        "blocks": {
+          "1599670280487-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/roberto-nickson-5JOMpgzPDK4-unsplash.jpg",
+              "image_position": "center top",
+              "image_overlay": false,
+              "image_overlay_opacity": 25,
+              "text_alignment": "center",
+              "slide_heading": "the robotic smart home",
+              "slide_subheading": "A smarter, safer connected home that pays for itself",
+              "button_label": "Show me how that works",
+              "button_link": "shopify:\/\/pages\/betacalc",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#8a288f"
+            }
+          }
+        },
+        "block_order": [
+          "1599670280487-0"
+        ],
+        "settings": {
+          "home_hero_height": "full",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 5
+        }
+      },
+      "1600426353065": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Blog",
+          "blog": "news",
+          "post_limit": 3,
+          "blog_show_date": true,
+          "blog_show_author": false,
+          "blog_show_image": false,
+          "blog_show_excerpt": true,
+          "show_view_all": false
+        }
+      },
+      "1600431924048": {
+        "type": "featured-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/smart_bundle_Luxury6-2.png",
+          "layout": "right",
+          "title": "A Lux Life Has Never Been So Accessible",
+          "text": "<p>The super luxury bundles adds premium devices like the Echo Show hub, Somfy blinds, Light Switches and Electrical Plugs as well as Smoke Alarms. It is so delightful it will transform your life as a homeowner forever.<\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/products\/smart-super-luxury-bundle"
+        }
+      },
+      "1600433531711": {
+        "type": "featured-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_2020-09-18_at_6.51.43_AM.png",
+          "layout": "left",
+          "title": "Bring Your Home To Life",
+          "text": "<p>A Mindhome will change how you enjoy your home and your life. They treat you like you would want by automating certain tasks like vacuuming and timing the little things like your favorite latest song playing when you get home to make you feel special <em>everyday<\/em>.<\/p>",
+          "button_label": ""
+        }
+      },
+      "1600434082259": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1600434082259-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2020-09-18_at_7.00.40_AM.png",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 25,
+              "text_alignment": "center",
+              "slide_heading": "A Truly Living Room",
+              "slide_subheading": "Living Rooms Spring to Life With Automated Music and Sunlight",
+              "button_label": "Explore Integrations",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          },
+          "1600434082259-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2020-09-18_at_7.00.07_AM.png",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 25,
+              "text_alignment": "center",
+              "slide_heading": "Smart Bedroom",
+              "slide_subheading": "Bedrooms That Put Out The Lights For You",
+              "button_label": "See All Integrations",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          },
+          "1600434343472": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2020-09-18_at_7.00.28_AM.png",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 25,
+              "text_alignment": "center",
+              "slide_heading": "Kitchens Entertain & Invite",
+              "slide_subheading": "Your Gateway to Automated Food & Cooking",
+              "button_label": "Explore Integrations",
+              "button_link": "https:\/\/www.mindhome.co\/pages\/copy-of-integrations",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          },
+          "1600434504794": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2020-09-18_at_7.00.52_AM.png",
+              "image_position": "center center",
+              "image_overlay": false,
+              "image_overlay_opacity": 0,
+              "text_alignment": "center",
+              "slide_heading": "Outside Is Where We Shine",
+              "slide_subheading": "Lawn, Garden, Maintenance and Energy Care and Savings",
+              "button_label": "Exlpore Our Integrations",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          }
+        },
+        "block_order": [
+          "1600434082259-0",
+          "1600434082259-1",
+          "1600434343472",
+          "1600434504794"
+        ],
+        "settings": {
+          "home_hero_height": "full",
+          "hero_home_auto": true,
+          "home_hero_auto_speed": 3
+        }
+      },
+      "1600434896800": {
+        "type": "featured-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_2020-09-18_at_7.13.25_AM.png",
+          "layout": "right",
+          "title": "Automating homes outside in",
+          "text": "<p>We take a holistic approach to the automation and elevation of your home&#x27;s ability to make your life easier. Every platform is connected and we pre-package automations so your doors unlock from your phone, sense when you are arriving, and automate your lawn care.<\/p>",
+          "button_label": "Check out our full integrations list",
+          "button_link": "https:\/\/www.mindhome.co\/pages\/copy-of-integrations"
+        }
+      },
+      "smk_blocks": {
+        "type": "smk_blocks",
+        "settings": {}
+      },
+      "16070856066d95eb93": {
+        "type": "advanced-content",
+        "blocks": {
+          "16070856066d95eb93-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<h2>Questions? \nCall us 8am-8pm ET at 718-551-1734 <\/h2>\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "16070856066d95eb93-0"
+        ],
+        "settings": {}
+      },
+      "160748634957e2eb8c": {
+        "type": "advanced-content",
+        "blocks": {
+          "160748634957e2eb8c-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"position: relative; width: 100%; height: 0; padding-top: 56.2500%;\n padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;\n border-radius: 8px; will-change: transform;\">\n  <iframe style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0; \" src=\"https:\/\/www.canva.com\/design\/DAEPy9JtfFo\/view?embed\">\n  <\/iframe>\n<\/div>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "160748634957e2eb8c-0"
+        ],
+        "settings": {}
+      },
+      "smk_product_blocks": {
+        "type": "smk_product_blocks",
+        "settings": {
+          "show_product_blocks": true
+        }
+      },
+      "smk_collection_blocks": {
+        "type": "smk_collection_blocks",
+        "settings": {
+          "show_collection_blocks": true
+        }
+      }
+    },
+    "content_for_index": [
+      "1599670280487",
+      "1599670151464",
+      "1600434896800",
+      "160748634957e2eb8c",
+      "1600433531711",
+      "1600434082259",
+      "1597277397891",
+      "1597277731114",
+      "1597278001391",
+      "featured-collections",
+      "1600431924048",
+      "1596553859880",
+      "1597277211415",
+      "1597278001392",
+      "1600426353065",
+      "newsletter",
+      "16070856066d95eb93"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "checkout_accent_color": "#a26b25",
+      "checkout_button_color": "#000000",
+      "checkout_error_color": "e32c2b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_announcement": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "slide",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {
+            "section_title": "",
+            "text_size": "large"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-3": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-4": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2",
+            "featured-collections-3",
+            "featured-collections-4"
+          ],
+          "settings": {}
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "collection_products_grid": "grid"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {}
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-content",
+        "featured-collections",
+        "featured-products",
+        "featured-product",
+        "newsletter"
+      ]
+    },
+    "Playful": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#565656",
+      "color_borders": "#5dd2b4",
+      "color_button_text": "#ffffff",
+      "color_primary": "#7737BD",
+      "color_secondary": "#058677",
+      "color_product_background": "#fff4f6",
+      "color_sale_tag": "#e80970",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#bde9f2",
+      "color_drawer_background": "#360f5f",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_border": "#50297a",
+      "color_drawer_button": "#7737BD",
+      "color_drawer_button_text": "#ffffff",
+      "color_headings": "#321863",
+      "type_header_family": "quicksand_n7",
+      "type_header_base_size": "38px",
+      "type_header_border_thickness": "1px",
+      "type_accent_family": "roboto_n7",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "type_accent_subheadings": false,
+      "type_base_family": "helvetica_n4",
+      "type_base_size": "17px",
+      "type_base_italize_titles": false,
+      "cart_type": "drawer",
+      "cart_notes_enable": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_google_plus_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fff4f6",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Roboto",
+      "checkout_accent_color": "#7737BD",
+      "checkout_button_color": "#7737BD",
+      "checkout_error_color": "#f01130",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "social_sharing_style": "clean",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1495823280244": {
+              "type": "slide",
+              "settings": {
+                "slide_text_color": "#ffffff",
+                "slide_button_label_color": "#003B34",
+                "slide_button_background_color": "#84D1B2"
+              }
+            }
+          },
+          "block_order": [
+            "1495823280244"
+          ],
+          "settings": {
+            "hero_home_auto": false,
+            "home_hero_auto_speed": 5
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage",
+            "collection_products_grid": "collage"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_max_width": 260,
+            "search": "modal",
+            "main_menu_link_list": "main-menu",
+            "show_announcement": false,
+            "color_bg": "#290c49",
+            "color_text": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_link_list": "footer"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_tags_enable": false,
+            "collection_products_grid": "grid",
+            "product_vendor_enable": false
+          }
+        },
+        "1494860348200": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "1494894035034": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": false,
+            "social_sharing_products": true,
+            "enable_image_zoom": false,
+            "enable_video_looping": false
+          }
+        },
+        "1496078102297": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496078102297-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"text-align:center;\">\n<h1 class=\"h1\">Use HTML to format your text so it can be easily read.<\/h1>This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496078102297-0"
+          ],
+          "settings": {}
+        },
+        "1496177901425": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496177901425-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496177901425-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1496177901425",
+        "featured-products",
+        "newsletter",
+        "1496078102297",
+        "1494860348200",
+        "1494894035034"
+      ]
+    }
+  }
+}

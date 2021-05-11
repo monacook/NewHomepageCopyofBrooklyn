@@ -1,0 +1,47 @@
+{% section 'smk_blocks' %}<div class='smk-sections-above-content'></div><!-- /templates/page.liquid -->
+<div class="grid">
+  <div class="grid__item large--five-sixths push--large--one-twelfth">
+
+    <header class="section-header text-center">
+      <h1>{{ page.title }}</h1>
+      <hr class="hr--small">
+    </header>
+
+    <div class="grid">
+      <div class="grid__item large--four-fifths push--large--one-tenth">
+        <div class="rte rte--nomargin rte--indented-images">
+          {{ page.content }}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class='smk-sections-below-content'></div><div class='smk-sections-above-footer'></div>
+
+
+<div class="storify-page-break"></div>
+
+{%- assign stories = shop.metafields.storify.stories | slice: 0, 5 -%}
+<div class="stories-list-page">
+    <div class="stories-list">
+        {% for story in shop.metafields.storify.stories %}
+        <div class="story-list-item">
+            <a class="story" href="/a/stories/{{story.handle}}">
+            <div class="story-body text-center">
+                <div class="story-image">
+                <img alt="{{story.name}}" src="{{story.poster_portrait}}">
+                </div>    
+            </div>
+            <div class="story-title">
+                <span>
+                <div class="story-title-content">
+                    {{story.name}}
+                </div>
+                </span>
+            </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
